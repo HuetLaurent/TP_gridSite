@@ -1,0 +1,19 @@
+h1{
+    display: grid;
+    justify-content: center;
+}
+
+ul{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 4% 4% 4% 4% 4% 40%;
+    grid-template-rows: 1fr;
+}
+
+#main{  
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+}
